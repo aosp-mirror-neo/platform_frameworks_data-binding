@@ -33,6 +33,7 @@ iml_module(
         "//tools/adt/idea/android:intellij.android.core",
         "//tools/analytics-library/shared:analytics-shared",
         "//tools/adt/idea/project-system-gradle:intellij.android.projectSystem.gradle",
+        "@intellij//:intellij.platform.externalSystem",
     ],
     test_shard_count = 4,
     test_srcs = ["src/test/java"],
