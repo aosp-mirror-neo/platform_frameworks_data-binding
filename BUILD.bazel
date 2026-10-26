@@ -11,7 +11,7 @@ exports_files(["databinding.properties"])
 
 filegroup(
     name = "data_binding_android_platform",
-    srcs = ["//prebuilts/studio/sdk:platforms/android-34"],
+    srcs = ["//prebuilts/studio/sdk:platforms/android-36"],
     visibility = ["//visibility:public"],
 )
 
